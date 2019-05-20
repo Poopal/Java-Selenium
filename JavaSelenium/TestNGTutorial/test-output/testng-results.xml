@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68" started-at="2019-03-27T16:26:56Z" finished-at="2019-03-27T16:26:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68" started-at="2019-03-27T16:26:56Z" finished-at="2019-03-27T16:26:56Z">
+      <class name="TestPackage.Day2">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:TestPackage.Day2@36d4b5c]" name="Demo" duration-ms="2" started-at="2019-03-27T16:26:56Z" finished-at="2019-03-27T16:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="Demo2()[pri:0, instance:TestPackage.Day2@36d4b5c]" name="Demo2" is-config="true" duration-ms="0" started-at="2019-03-27T16:26:56Z" finished-at="2019-03-27T16:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+      </class> <!-- TestPackage.Day2 -->
+      <class name="TestPackage.Day3">
+        <test-method status="PASS" signature="APILoginCarLoan()[pri:0, instance:TestPackage.Day3@2ef5e5e3]" name="APILoginCarLoan" is-config="true" duration-ms="0" started-at="2019-03-27T16:26:56Z" finished-at="2019-03-27T16:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:TestPackage.Day3@2ef5e5e3]" name="MobileLoginCarLoan" duration-ms="1" started-at="2019-03-27T16:26:56Z" finished-at="2019-03-27T16:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method status="PASS" signature="WEbLoginCarLoan()[pri:0, instance:TestPackage.Day3@2ef5e5e3]" name="WEbLoginCarLoan" duration-ms="2" started-at="2019-03-27T16:26:56Z" finished-at="2019-03-27T16:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WEbLoginCarLoan -->
+      </class> <!-- TestPackage.Day3 -->
+      <class name="TestPackage.Day4">
+        <test-method status="PASS" signature="APILoginCarLoan()[pri:0, instance:TestPackage.Day4@6d00a15d]" name="APILoginCarLoan" duration-ms="3" started-at="2019-03-27T16:26:56Z" finished-at="2019-03-27T16:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:TestPackage.Day4@6d00a15d]" name="MobileLoginCarLoan" duration-ms="3" started-at="2019-03-27T16:26:56Z" finished-at="2019-03-27T16:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method status="PASS" signature="WEbLoginCarLoan()[pri:0, instance:TestPackage.Day4@6d00a15d]" name="WEbLoginCarLoan" is-config="true" duration-ms="1" started-at="2019-03-27T16:26:56Z" finished-at="2019-03-27T16:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WEbLoginCarLoan -->
+      </class> <!-- TestPackage.Day4 -->
+      <class name="TestPackage.Day1">
+        <test-method status="PASS" signature="Demo2()[pri:0, instance:TestPackage.Day1@643b1d11]" name="Demo2" is-config="true" duration-ms="13" started-at="2019-03-27T16:26:56Z" finished-at="2019-03-27T16:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+        <test-method status="PASS" signature="Demo()[pri:0, instance:TestPackage.Day1@643b1d11]" name="Demo" duration-ms="9" started-at="2019-03-27T16:26:56Z" finished-at="2019-03-27T16:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- TestPackage.Day1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

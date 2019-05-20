@@ -1,0 +1,20 @@
+package Collection;
+
+import java.util.HashMap;
+
+public class ConvertHashMapToArrayList {
+
+	public static void main(String[] args) {
+		
+		HashMap<String,String> map = new HashMap<String,String>();
+		map.put("Poonam", "Tech Mahindra");
+		map.put("Nisha", "Infosys");
+		map.put("Sandesh", "Nagarro");
+		map.put("Kushboo", "Emids");
+		
+		System.out.println(map);
+		
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package Collection;
+
+import java.util.HashMap;
+import java.util.Iterator;
+
+public class HashMapIteration {
+
+	public static void main(String[] args) {
+		
+		HashMap<Integer, String> map = new HashMap<Integer, String>();
+		
+		map.put(01, "Sandesh");
+		map.put(02, "Poonam");
+		map.put(03, "Chintu");
+		
+		System.out.println(map.size());
+		
+		Iterator itr = map.entrySet().iterator();
+		
+		while(itr.hasNext())
+		{
+			       System.out.println(itr.next());
+			
+		}
+
+	}
+
+}

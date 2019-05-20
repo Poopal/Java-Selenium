@@ -1,0 +1,30 @@
+package Collection;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Set;
+
+public class ConvertHashMapToArrayList {
+
+	public static void main(String[] args) {
+		
+		HashMap<String,String> map = new HashMap<String,String>();
+		map.put("Poonam", "Tech Mahindra");
+		map.put("Nisha", "Infosys");
+		map.put("Sandesh", "Nagarro");
+		map.put("Kushboo", "Emids");
+		
+		System.out.println(map);
+		
+		//Convert HashMap keys into ArrayList
+		
+		Set<String> keyset = map.keySet();
+		
+		ArrayList<String> listOfKeys = new ArrayList<String>(keyset);
+		
+		System.out.println(listOfKeys);
+		
+		
+	}
+
+}

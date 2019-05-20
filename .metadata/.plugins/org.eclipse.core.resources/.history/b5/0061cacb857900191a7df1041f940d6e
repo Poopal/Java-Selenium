@@ -1,0 +1,20 @@
+package Collection;
+
+import java.util.ArrayList;
+
+public class RemoveDuplicateElementsFromArrayList {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> List1= new ArrayList<String>();
+	         List1.add("Poonam");
+	         List1.add("Sandesh");
+	         List1.add("Nisha");
+	         List1.add("Poonam");
+	         List1.add("Sandesh");
+	         List1.add("Chiku");
+	         
+	         System.out.println(List);
+	}
+
+}
